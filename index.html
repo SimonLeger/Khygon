@@ -13,17 +13,22 @@
     </header>
     <main>
         <div class="row">
-            <div class="col-2 nav">
+            <div class="col-2 nav" id="nav">
                 <h3>Socials</h3>
                 <ul class="socials">
-                    <li><a class="nav-link" href="#">GitHub</a></li>
+                    <li><a class="nav-link" href="https://github.com/SimonLeger">GitHub</a></li>
                     <li><a class="nav-link" href="#">LinkedIn</a></li>
                     <li><a class="nav-link" href="#">Email</a></li>
                     <li><a class="nav-link" href="#">Steam</a></li>
                 </ul>
-                <span class="close-btn" onclick="CloseNav()">x</span>
+                <span class="close-btn" onclick="HideNav()">X</span>
             </div>
-            <div class="col-10">
+            <div class="col-10 content" id="content">
+                <div class="open-btn" id="hamburger" onclick="ShowNav()">
+                    <div class="hamburger"></div>
+                    <div class="hamburger"></div>
+                    <div class="hamburger"></div>
+                </div>
                 <h3>Content</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, voluptas doloremque quibusdam porro expedita nemo obcaecati omnis laudantium, culpa eveniet, aut earum dolorum magnam amet explicabo quos adipisci debitis cum?</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, voluptas doloremque quibusdam porro expedita nemo obcaecati omnis laudantium, culpa eveniet, aut earum dolorum magnam amet explicabo quos adipisci debitis cum?</p>
@@ -36,7 +41,7 @@
     <footer>
         <div class="row">
             <div class="col-6">
-                <p>Envisioned and created by Simon Leger</p>
+                <p>Envisioned and created by Simon Leger originally in 2024</p>
             </div>
             <div class="col-6">
                 <p>Last edited on 2024-07-19</p>
