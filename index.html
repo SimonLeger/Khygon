@@ -14,37 +14,103 @@
     <main>
         <div class="row">
             <div class="col-2 nav" id="nav">
-                <h3>Socials</h3>
+                <h2>Socials</h2>
                 <ul class="socials">
                     <li><a class="nav-link" href="https://github.com/SimonLeger">GitHub</a></li>
                     <li><a class="nav-link" href="#">LinkedIn</a></li>
                     <li><a class="nav-link" href="#">Email</a></li>
                     <li><a class="nav-link" href="#">Steam</a></li>
                 </ul>
+                <h2>Games</h2>
+                <ul class="games">
+                    <li><a class="nav-link" href="#">Wordle</a></li>
+                    <li><a class="nav-link" href="#">Battleship</a></li>
+                    <li><a class="nav-link" href="#">Aimlab</a></li>
+                    <li><a class="nav-link" href="#">Uno</a></li>
+                </ul>
                 <span class="close-btn" onclick="HideNav()">X</span>
             </div>
             <div class="col-10 content" id="content">
-                <div class="open-btn" id="hamburger" onclick="ShowNav()">
-                    <div class="hamburger"></div>
-                    <div class="hamburger"></div>
-                    <div class="hamburger"></div>
+                <div class="open-btn" id="hamburger" onclick="ShowNav()"><div class="hamburger"></div><div class="hamburger"></div><div class="hamburger"></div></div>
+                <div class="row">
+                    <div class="col-6">
+                        <h2>Websites</h2>
+                        <table>
+                            <tr>
+                                <th>Link</th>
+                                <th>GitHub</th>
+                                <th>Last Modified</th>
+                            </tr>
+                            <tr>
+                                <td><a href="gtlinc.ca">gtlinc.ca</a></td>
+                                <td><a href="https://github.com/SimonLeger/gtlinc">SimonLeger</a></td>
+                                <td>2024-07-22</td>
+                            </tr>
+                            <tr>
+                                <td><a href="gtlinc.ca">gtlinc.ca</a></td>
+                                <td><a href="https://github.com/SimonLeger/gtlinc">SimonLeger</a></td>
+                                <td>2024-07-22</td>
+                            </tr>
+                            <tr>
+                                <td><a href="gtlinc.ca">gtlinc.ca</a></td>
+                                <td><a href="https://github.com/SimonLeger/gtlinc">SimonLeger</a></td>
+                                <td>2024-07-22</td>
+                            </tr>
+                            <tr>
+                                <td><a href="gtlinc.ca">gtlinc.ca</a></td>
+                                <td><a href="https://github.com/SimonLeger/gtlinc">SimonLeger</a></td>
+                                <td>2024-07-22</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-6">
+                        <h2>Games</h2>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="gamecard">
+                                    <h3>Wordle</h3>
+                                    <div>
+                                        <p>Can you guess the word in less than 6 tries? Here's my take on Wordle</p>
+                                        <p><span class="playnow-btn">PLAY NOW</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="gamecard">
+                                    <h3>Battleship</h3>
+                                    <p>Sink the AI's battleships before it sinks yours! Do you think you can beat my AI?</p>
+                                    <p><span class="playnow-btn">PLAY NOW</span></p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="gamecard">
+                                    <h3>AimLab</h3>
+                                    <p>Having trouble in shooter games? Test out your aim in my testing arena!</p>
+                                    <p><span class="playnow-btn">PLAY NOW</span></p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="gamecard">
+                                    <h3>Uno</h3>
+                                    <p>Finish your cards before the 3 other AI players do! Do you think you can beat my AI?</p>
+                                    <p><span class="playnow-btn">PLAY NOW</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <h3>Content</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, voluptas doloremque quibusdam porro expedita nemo obcaecati omnis laudantium, culpa eveniet, aut earum dolorum magnam amet explicabo quos adipisci debitis cum?</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, voluptas doloremque quibusdam porro expedita nemo obcaecati omnis laudantium, culpa eveniet, aut earum dolorum magnam amet explicabo quos adipisci debitis cum?</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, voluptas doloremque quibusdam porro expedita nemo obcaecati omnis laudantium, culpa eveniet, aut earum dolorum magnam amet explicabo quos adipisci debitis cum?</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, voluptas doloremque quibusdam porro expedita nemo obcaecati omnis laudantium, culpa eveniet, aut earum dolorum magnam amet explicabo quos adipisci debitis cum?</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, voluptas doloremque quibusdam porro expedita nemo obcaecati omnis laudantium, culpa eveniet, aut earum dolorum magnam amet explicabo quos adipisci debitis cum?</p>
             </div>
         </div>
     </main>
     <footer>
         <div class="row">
             <div class="col-6">
-                <p>Envisioned and created by Simon Leger originally in 2024</p>
+                <p>This website was created to showcase my web developpement skills in JavaScript and to pratice CSS animations.</p>
+                <p>In the games section, you will find games that include AI that actively try to beat the player.</p>
+                <p>If you have any questions, you can always contact me at <a href="sleger@gtlinc.ca">sleger@gtlinc.ca</a>.</p>
             </div>
             <div class="col-6">
-                <p>Last edited on 2024-07-19</p>
+                <p style="text-align: right;">Last edited on 2024-07-22</p>
             </div>
         </div>
     </footer>

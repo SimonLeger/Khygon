@@ -19,7 +19,7 @@
 [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .row::after {
@@ -28,7 +28,7 @@
     display: table;
 }
 
-/*===========================*/
+/*======    Base CSS    =====*/
 
 body {
     margin: 0;
@@ -38,9 +38,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     text-align: center;
 }
+
+footer {
+    margin: 50px;
+}
+
 /*=====   Custom  CSS   =====*/
 
-.socials {
+.socials, .games {
     list-style-type: none;
     padding: 0;
     li {
@@ -91,6 +96,36 @@ h1, h2, h3, h4, h5, h6 {
     margin: 4px 0;
 }
 
+/*======     Tables     =====*/
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+}
+
+td, th {
+    border: 1px solid #c7c7c7;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 
 /*===========================*/
+
+.gamecard {
+    background-color: #c7c7c7;
+    text-align: center;
+    padding: 15px;
+}
+
+.playnow-btn {
+    color: white;
+    background-color: rgb(4, 153, 4);
+    text-align: center;
+    padding: 10px;
+    border-radius: 15%;
+}
